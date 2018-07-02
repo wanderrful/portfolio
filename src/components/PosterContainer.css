@@ -29,3 +29,11 @@ a {
     min-width: 250px;
     min-height: 404px;
 }
+
+
+
+@media screen and (max-width: 720px) {
+    #poster_container {
+        flex-wrap: column;
+    }
+}
