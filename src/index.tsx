@@ -1,11 +1,30 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import App from "./components/App";
+import PosterContainer from "./components/PosterContainer";
+
 import "./index.css";
+
 import registerServiceWorker from "./registerServiceWorker";
 
+
+
+const testData: IPosterData[] = [
+  {
+    filename: "firesaurus_rex.png",
+    title: "Firesaurus Rex",
+    url: "http://jfaw-love.itch.io/firesaurus_rex",
+  },
+  {
+    filename: "dungeon_profiteer",
+    title: "Dungeon Profiteer",
+    url: "https://taqueso.itch.io/dungeon-profiteer",
+  },
+];
+
+
+
 ReactDOM.render(
-  <App />,
+  <PosterContainer data={testData} />,
   document.getElementById("root") as HTMLElement
 );
 registerServiceWorker();
