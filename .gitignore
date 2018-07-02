@@ -23,5 +23,5 @@ yarn-error.log*
 # ignore source folders for gh-pages branch
 /public
 /src
-*.d.ts
-*.json
+.d.ts
+.json
