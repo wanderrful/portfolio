@@ -1,6 +1,7 @@
 {
-  "name": "portfoilo",
+  "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://wanderrful.github.io/portfolio",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",

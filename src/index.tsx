@@ -10,12 +10,12 @@ import registerServiceWorker from "./registerServiceWorker";
 
 const testData: IPosterData[] = [
   {
-    filename: "firesaurus_rex.png",
+    filename: "firesaurus_rex.jpg",
     title: "Firesaurus Rex",
     url: "http://jfaw-love.itch.io/firesaurus_rex",
   },
   {
-    filename: "dungeon_profiteer",
+    filename: "dungeon_profiteer.jpg",
     title: "Dungeon Profiteer",
     url: "https://taqueso.itch.io/dungeon-profiteer",
   },

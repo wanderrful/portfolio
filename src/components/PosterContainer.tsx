@@ -1,4 +1,5 @@
 import * as React from "react";
+
 import "./PosterContainer.css";
 
 
@@ -6,10 +7,11 @@ import "./PosterContainer.css";
 const Poster = (props: {data: IPosterData}) => (
   <div className="poster_wrapper">
     <a href={props.data.url}>
-      <div className="poster" style={ { backgroundImage: `${props.data.filename}` } }>
-        <p>
+      <div className="poster">
+        <img src={`${process.env.PUBLIC_URL}/images/${props.data.filename}`} />
+      </div>
+      <div className="poster_title">
           {props.data.title}
-        </p>
       </div>
     </a>
   </div>
