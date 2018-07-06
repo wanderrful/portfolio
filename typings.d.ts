@@ -6,4 +6,6 @@ interface IPosterData {
     filename: string,
     title: string,
     url: string,
+    role?: string,
+    comment?: string,
 }

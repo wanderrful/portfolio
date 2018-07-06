@@ -19,6 +19,16 @@ const testData: IPosterData[] = [
     title: "Dungeon Profiteer",
     url: "https://taqueso.itch.io/dungeon-profiteer",
   },
+  {
+    filename: "galacide.jpg",
+    title: "Galacide",
+    url: "http://galacide.com/",
+  },
+  {
+    filename:"bodega_blast.jpg",
+    title: "Bodega Blast",
+    url: "http://www.awfuljams.com/little-awful-2017/games/bodega-blast",
+  }
 ];
 
 

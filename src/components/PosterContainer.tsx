@@ -5,9 +5,9 @@ import "./PosterContainer.css";
 
 
 const Poster = (props: {data: IPosterData}) => (
-  <div className="poster_wrapper">
+  <div className="poster">
     <a href={props.data.url}>
-      <div className="poster">
+      <div className="poster_logo">
         <img src={`${process.env.PUBLIC_URL}/images/${props.data.filename}`} />
       </div>
       <div className="poster_title">

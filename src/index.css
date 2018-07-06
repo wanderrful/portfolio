@@ -1,3 +1,11 @@
+/* Define the color variables */
+:root {
+  --txt-color-main: #333;
+  --txt-color-main-translucent: rgba(51, 51, 51, 0.4);
+}
+
+
+/* Main CSS Content */
 * {
   box-sizing: border-box;
 }
@@ -14,13 +22,30 @@ body {
   justify-content: center;
   align-items: center;
 
-  color: #333333;
+  color: var(--txt-color-main);
   background-color: #eeeeee;
 }
 
 p {
   margin: 0;
   padding: 0;
+}
+
+a:link {
+  color: var(--txt-color-main);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--txt-color-main);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--txt-color-main);
+  text-decoration: none;
+}
+a:active {
+  color: var(--txt-color-main);
+  text-decoration: none;
 }
 
 #root {

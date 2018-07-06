@@ -13,8 +13,7 @@ a {
     margin: 0 4px;
 }
 
-.poster {
-    background-color: rgba(162, 0, 255, 0);
+.poster_logo {
 
     display: flex;
     justify-content: center;
@@ -25,9 +24,11 @@ a {
     min-height: 400px;
 }
 
-.poster img {
-    border: 1px dotted rebeccapurple;
+.poster_logo img {
+    border: 1px solid var(--txt-color-main-translucent);
     border-radius: 50%;
+
+    box-shadow: 0px 0px 4px 0px var(--txt-color-main);
 
     position: relative;
     width: 100%;
@@ -35,7 +36,7 @@ a {
 }
 
 .poster_title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-top: 4px;
     text-align: center;
 }
